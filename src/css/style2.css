@@ -111,3 +111,7 @@ nav a:visited{
         z-index: 1;
     }
 }
+.case img{
+    width: 100%;
+    height: auto;
+}
