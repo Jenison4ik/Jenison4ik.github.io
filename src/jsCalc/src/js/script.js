@@ -75,13 +75,6 @@ function calc() {
     return all;
 }
 
-/*alert(calc());*/
-let Confim1 = confim(all);
-    while (Confim1 == false) {
-       chooseTypeType();
-       chooseTypeDesign();
-       chooseTypeAdaptive();
-       calc();
-    Confim1 = confim(all);
-    }
+alert(calc());
+
 
