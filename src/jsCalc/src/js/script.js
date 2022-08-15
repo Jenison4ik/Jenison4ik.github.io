@@ -83,5 +83,5 @@ chooseTypeType();
 chooseTypeDesign():
 chooseTypeAdaptive();
 calc();
-Confim1 = confim(all) ;
+Confim1 = confirm(all) ;
 }
