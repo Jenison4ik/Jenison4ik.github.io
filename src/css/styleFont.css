@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'icofont';
+  src:  url('../fonts/icofont.eot?b2rtn8');
+  src:  url('../fonts/icofont.eot?b2rtn8#iefix') format('embedded-opentype'),
+    url('../fonts/icofont.ttf?b2rtn8') format('truetype'),
+    url('../fonts/icofont.woff?b2rtn8') format('woff'),
+    url('../fonts/icofont.svg?b2rtn8#icofont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icofont' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-group:before {
+  content: "\e90c";
+  color: #0d7377;
+}
+.icon-menu:before {
+  content: "\e90b";
+  color: #fff;
+}
+.icon-adress:before {
+  content: "\e900";
+  color: #fff;
+}
+.icon-cms:before {
+  content: "\e901";
+  color: #fff;
+}
+.icon-code:before {
+  content: "\e902";
+  color: #fff;
+}
+.icon-complete:before {
+  content: "\e903";
+  color: #fff;
+}
+.icon-discount:before {
+  content: "\e904";
+  color: #fff;
+}
+.icon-mail:before {
+  content: "\e905";
+  color: #fff;
+}
+.icon-optimization:before {
+  content: "\e906";
+  color: #fff;
+}
+.icon-paint-palette:before {
+  content: "\e907";
+  color: #fff;
+}
+.icon-phone:before {
+  content: "\e908";
+  color: #fff;
+}
+.icon-prize:before {
+  content: "\e909";
+  color: #fff;
+}
+.icon-smile:before {
+  content: "\e90a";
+  color: #fff;
+}
