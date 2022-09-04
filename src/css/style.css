@@ -307,6 +307,9 @@ hr{
 }
 
 @media(max-width:550px) {
+    .main{
+        margin-top:70px;
+    }
     .main h1 {
         padding-top: 70px;
         font-size: 36px;
