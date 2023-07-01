@@ -574,6 +574,7 @@ footer .copyright {
   }
   .mb-active {
     transform: translate(0px, 70px);
+    will-change: transform;
   }
   .burger-bt {
     position: fixed;
@@ -595,6 +596,7 @@ footer .copyright {
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
+    will-change: transform;
   }
   .burger-bt .active .arrow-top {
     -webkit-transform: rotateZ(45deg) translateY(11px);
