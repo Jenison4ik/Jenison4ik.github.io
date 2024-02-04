@@ -52,10 +52,10 @@ window.addEventListener('DOMContentLoaded',function(){
         else{
             counter = 0;
         }
-        if(counter==10){
+        if(counter==2){
             h1.innerHTML+= '<br> Ты серьезно?'
         }
-        if(counter==15){
+        if(counter==5){
             h1.innerHTML+= '<br> Ульяна, это не смешно'
         }
     })
