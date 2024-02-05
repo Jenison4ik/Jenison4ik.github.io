@@ -48,6 +48,7 @@ h1{
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+    touch-action: manipulation;
 }
 #yes{
     background-color: rgb(3, 221, 14);
