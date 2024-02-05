@@ -26,15 +26,14 @@ window.addEventListener('DOMContentLoaded',function(){
         "Нет, не интересует",
         "Мне не до этого сейчас"
       ];
-    const secondImage = new Image();
-    secondImage.src = 'kiss1.gif';
       let [counter, width, height,fs] = [0,120,40,16]
     const yes = this.document.querySelector('#yes');
     const no = this.document.querySelector('#no');
     const h1 = document.querySelector('h1');
     const block = document.querySelector('.bt-block')
     yes.addEventListener('click',function(){
-        document.querySelector('#img').src = secondImage.src;
+        document.querySelector('#img1').style.display = 'none';
+        document.querySelector('#img2').style.display = 'block';
         h1.innerHTML = 'Я даже не сомневался 😘'
         block.remove();
         
